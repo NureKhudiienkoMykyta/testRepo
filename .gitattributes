@@ -1,0 +1,7 @@
+# Всі JS, JSON, конфіги - LF
+*.js text eol=lf
+*.json text eol=lf
+*.mjs text eol=lf
+
+# Git hooks теж LF
+.husky/* text eol=lf

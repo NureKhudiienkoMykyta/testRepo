@@ -1,0 +1,32 @@
+{
+  "name": "testrepo",
+  "version": "1.0.0",
+  "description": "Hello",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NureKhudiienkoMykyta/testRepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NureKhudiienkoMykyta/testRepo/issues"
+  },
+  "homepage": "https://github.com/NureKhudiienkoMykyta/testRepo#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.38.0",
+    "eslint": "^9.38.0",
+    "globals": "^16.4.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^16.2.4"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": ["eslint ."]
+  }
+}
